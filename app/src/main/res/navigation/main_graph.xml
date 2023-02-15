@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/blankFragmentNotification">
+
+    <fragment
+        android:id="@+id/blankFragmentNotification"
+        android:name="com.example.menu.BlankFragmentNotification"
+        android:label="fragment_blank_notification"
+        tools:layout="@layout/fragment_blank_notification" />
+    <fragment
+        android:id="@+id/blankFragmentProfile"
+        android:name="com.example.menu.BlankFragmentProfile"
+        android:label="fragment_blank_profile"
+        tools:layout="@layout/fragment_blank_profile" />
+    <fragment
+        android:id="@+id/blankFragmentSettings"
+        android:name="com.example.menu.BlankFragmentSettings"
+        android:label="fragment_blank_settings"
+        tools:layout="@layout/fragment_blank_settings" />
+</navigation>

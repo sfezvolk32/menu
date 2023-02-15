@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Hello World!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="32sp">
+
+    </TextView>
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:layout_width="match_parent"
+        android:layout_alignTop="@id/textview"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent"
+        app:navGraph="@navigation/main_graph"
+        tools:layout="@layout/fragment_blank_notification"
+        app:defaultNavHost="true">
+
+
+    </fragment>
+</RelativeLayout>
