@@ -10,7 +10,7 @@
         android:id="@+id/textview"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:text="Hello World!"
+        android:text="зикерхфйтершписвольфпидормескер"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:textSize="32sp">
@@ -30,4 +30,10 @@
 
 
     </fragment>
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@android:dimen/app_icon_size"/>
 </RelativeLayout>
